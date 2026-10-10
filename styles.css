@@ -147,11 +147,11 @@ HIGHLIGHTS
 
 */
 
-#hightlight {
+#hightlights {
   position: relative;
 }
 
-#highlight:before {
+#highlights:before {
   background: url('assets/wave.svg');
   content: ""; 
   position: absolute;
@@ -165,18 +165,18 @@ HIGHLIGHTS
   transform: translateY(-100%);
 }
 
-#highlight:after {
+#highlights:after {
   background: url('assets/wave.svg');
   content: ""; 
   position: absolute;
   width: 101vw;
   height: 12vw;
-  top: 1px;
+  bottom: 1px;
   left: 0;
   z-index: 1;
   background-size: cover;
   background-repeat: no-repeat;
-  transform: translateY(100%);
+  transform: translateY(100%) rotate (180deg);
 }
 
 .highlight__wrapper {
